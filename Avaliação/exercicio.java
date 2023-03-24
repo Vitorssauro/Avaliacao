@@ -29,7 +29,18 @@ public class exercicio {
     }
 
     public void ex2() {
+        System.out.println("Insira o N° de matícula do aluno:");
+        int aluno = sc.nextInt()%4+1;
         
+        if (aluno == 1) {
+            System.out.println("o aluno entrará no time do Chris");
+        } else if (aluno == 2) {
+            System.out.println("o aluno entrará no time do Greg");
+        } else if (aluno == 3) {
+            System.out.println("o aluno entrará no time do Caruso");
+        } else {
+            System.out.println("o aluno entrará no time do Jerome");
+        }
     }
 
     public void ex3() {
@@ -51,6 +62,6 @@ public class exercicio {
     public void ex4() {
         System.out.println("Informe seu nome:");
         String nome = sc.nextLine();
-        
+        System.out.println();
     }
 }
